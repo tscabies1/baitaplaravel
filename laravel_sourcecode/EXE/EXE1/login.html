@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./public/css/styles_login.css">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <span>Lập trình web</span>
+        <a href="#">Home</a> |
+        <a href="#" class="active">Đăng nhập</a> |
+        <a href="register.html">Đăng ký</a>
+    </nav>
+
+    <!-- Form đăng nhập -->
+    <div class="login-container">
+        <h2>Màn hình đăng nhập</h2>
+        <form id="login-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required>
+
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Ghi nhớ đăng nhập</label>
+            </div>
+
+            <a href="#" class="forgot-password">Quên mật khẩu</a>
+
+            <button type="submit" class="login-btn">Đăng nhập</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+       Nguyễn Thanh Tùng
+    </footer>
+
+    <script src="./public/js/js_login.js"></script>
+</body>
+</html>

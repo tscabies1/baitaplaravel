@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="./public/css/styles_register.css">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <span>Lập trình web</span>
+        <a href="#">Home</a> |
+        <a href="login.html">Đăng nhập</a> |
+        <a href="login.html" class="active">Đăng ký</a>
+    </nav>
+
+    <!-- Form đăng ký -->
+    <div class="register-container">
+        <h2>Màn hình đăng ký</h2>
+        <form id="register-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Nhập lại mật khẩu</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <a href="login.html" class="login-link">Đã có tài khoản</a>
+
+            <button type="submit" class="register-btn">Đăng ký</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Nguyễn Thanh Tùng
+    </footer>
+
+    <script src="./public/js/js_register.js"></script>
+</body>
+</html>

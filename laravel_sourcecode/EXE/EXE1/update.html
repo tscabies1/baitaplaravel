@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cập nhật thông tin</title>
+    <link rel="stylesheet" href="./public/css/styles_update.css">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <span>Lập trình web</span>
+        <a href="index.html">Home</a> |
+        <a href="login.html">Đăng nhập</a> |
+        <a href="register.html">Đăng ký</a>
+    </nav>
+
+    <!-- Form cập nhật -->
+    <div class="update-container">
+        <h2>Màn hình cập nhật</h2>
+        <form id="update-form">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" value="xxx" required>
+
+            <label for="password">Mật khẩu</label>
+            <input type="password" id="password" name="password" value="xxx" required>
+
+            <label for="confirm-password">Nhập lại mật khẩu</label>
+            <input type="password" id="confirm-password" name="confirm-password" value="xxx" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" value="xxx" required>
+
+            <a href="login.html" class="login-link">Đã có tài khoản</a>
+
+            <button type="submit" class="update-btn">Cập nhật</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Nguyễn Thanh Tùng
+    </footer>
+
+    <script src="./public/js/js_update.js"></script>

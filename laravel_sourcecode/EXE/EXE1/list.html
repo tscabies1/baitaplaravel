@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách user</title>
+    <link rel="stylesheet" href="./public/css/styles_list.css">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <span>Lập trình web</span>
+        <a href="#">Home</a> |
+        <a href="logout.html">Đăng xuất</a>
+    </nav>
+
+    <!-- Danh sách user -->
+    <div class="user-list-container">
+        <h2>Danh sách user</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody id="user-table-body">
+                <!-- Dữ liệu user sẽ được thêm vào bằng JavaScript -->
+            </tbody>
+        </table>
+
+        <!-- Phân trang -->
+        <div class="pagination">
+            <button id="prevPage">Previous</button>
+            <button class="page-number active">1</button>
+            <button class="page-number">2</button>
+            <button class="page-number">3</button>
+            <button id="nextPage">Next</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Nguyễn Thanh Tùng
+    </footer>
+
+    <script src="./public/js/js_list.js"></script>
+</body>
+</html>
